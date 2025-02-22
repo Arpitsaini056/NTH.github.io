@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>निर्विकार टेंट हाउस पारसौली</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>NIRAKAR TENT HOUSE PARASOLI</h2>
+        <p>मोबाइल नंबर: 9756426774, 9917793938</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>सामान</th>
+                    <th>रेट (प्रति दिन)</th>
+                    <th>दिन</th>
+                    <th>मात्रा</th>
+                    <th>कुल</th>
+                </tr>
+            </thead>
+            <tbody id="itemsTable">
+                <tr>
+                    <td>कुर्सी</td>
+                    <td>₹10</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 10)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 10)'></td>
+                    <td class='totalPrice'>₹10</td>
+                </tr>
+                <tr>
+                    <td>टेबल</td>
+                    <td>₹50</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 50)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 50)'></td>
+                    <td class='totalPrice'>₹50</td>
+                </tr>
+                <tr>
+                    <td>सोफा सेट</td>
+                    <td>₹200</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 200)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 200)'></td>
+                    <td class='totalPrice'>₹200</td>
+                </tr>
+                <tr>
+                    <td>परदा</td>
+                    <td>₹100</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 100)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 100)'></td>
+                    <td class='totalPrice'>₹100</td>
+                </tr>
+                <tr>
+                    <td>मंडप</td>
+                    <td>₹500</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 500)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 500)'></td>
+                    <td class='totalPrice'>₹500</td>
+                </tr>
+                <tr>
+                    <td>भिगोना</td>
+                    <td>₹30</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 30)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 30)'></td>
+                    <td class='totalPrice'>₹30</td>
+                </tr>
+                <tr>
+                    <td>टप</td>
+                    <td>₹40</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 40)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 40)'></td>
+                    <td class='totalPrice'>₹40</td>
+                </tr>
+                <tr>
+                    <td>प्लेट</td>
+                    <td>₹5</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 5)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 5)'></td>
+                    <td class='totalPrice'>₹5</td>
+                </tr>
+                <tr>
+                    <td>जग</td>
+                    <td>₹10</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 10)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 10)'></td>
+                    <td class='totalPrice'>₹10</td>
+                </tr>
+                <tr>
+                    <td>पंडाल</td>
+                    <td>₹1000</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 1000)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 1000)'></td>
+                    <td class='totalPrice'>₹1000</td>
+                </tr>
+                <tr>
+                    <td>चम्मच</td>
+                    <td>₹2</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 2)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 2)'></td>
+                    <td class='totalPrice'>₹2</td>
+                </tr>
+                <tr>
+                    <td>चाय की टंकी</td>
+                    <td>₹300</td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 300)'></td>
+                    <td><input type='number' value='1' min='1' onchange='updateTotal(this, 300)'></td>
+                    <td class='totalPrice'>₹300</td>
+                </tr>
+            </tbody>
+
+        </table>
+        <h3>कुल किराया: ₹<span id="totalRent">0</span></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
